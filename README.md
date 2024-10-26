@@ -14,32 +14,26 @@ A new Flutter project.
     - Username: `mechanic@testmail.com`
     - Password: `mechanic@testmail.com`
 
-## Instructions to Build and Run on Android
+## Instructions to Build and Run on  chrome
 
-1. **Install Flutter:**
-     - Follow the official Flutter installation guide: [Install Flutter](https://flutter.dev/docs/get-started/install)
 
-2. **Clone the Repository:**
-     ```sh
-     git clone car_workshop_admin
-     cd car_workshop_admin
-     ```
 
-3. **Install Dependencies:**
-     ```sh
-     flutter pub get
-     ```
+1. Ensure you have Flutter installed. If not, follow the instructions [here](https://flutter.dev/docs/get-started/install).
 
-4. **Connect an Android Device or Start an Emulator:**
-     - Ensure your device is connected and debugging mode is enabled, or start an Android emulator.
+2. Open a terminal and navigate to the project directory:
+    ```sh
+    git clone https://github.com/xeron56/car_workshop_admin
+    cd car_workshop_admin
+    ```
 
-5. **Run the App:**
-     ```sh
-     flutter run
-     ```
+3. Run the following command to get all the dependencies:
+    ```sh
+    flutter pub get
+    ```
 
-6. **Build APK (Optional):**
-     ```sh
-     flutter build apk
-     ```
-     - The APK will be located in the `build/app/outputs/flutter-apk/` directory.
+4. To build and run the project on Chrome, use:
+    ```sh
+    flutter run -d chrome
+    ```
+
+5. The application should now open in a new Chrome window.
